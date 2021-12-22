@@ -4,24 +4,29 @@
 @import 'minima';
 
 @font-face {
-	font-family: Crimson; src: url('assets/crimson/Crimson-Roman.otf');
+	font-family: Crimson;
+	src: url('../crimson/Crimson-Roman.otf');
 }
 @font-face {
-	font-family: Acherus_Grotesque; src: url('assets/acherus-grotesque-cufonfonts/acherus_grotesque_-_regular.otf');
+	font-family: acherus-grotesque;
+	src: url('../acherus-grotesque-cufonfonts/acherus_grotesque_-_regular.otf')
 }
 body {
 	box-sizing: border-box;
 	overflow-x: hidden;
-	font-family: Crimson;
+	font-family: Crimson, sans-serif;
+	font-size: 1.1rem;
 }
-h1, h2, h3 {
-	font-family: Acherus_Grotesque;
+h1, h2, h3, h4, h5 {
+	font-family: acherus-grotesque;
 	text-decoration: none;
+	font-weight: bold;
 }
 
-#title {
+.title {
 	text-align: center;
 	color: #861F41;
+	margin-bottom: 20px;
 }
 
 details {
@@ -88,12 +93,25 @@ details {
 
 .hornored_prof {
 	height: 300px;
+	width: 250px;
+	object-fit: cover;
 
 }
 
 .prof_name {
 	font-weight: 200;
 
+}
+
+.committee {
+	height: 300px;
+	width: 250px;
+	object-fit: cover;
+}
+
+.card-header {
+	background-color: #E87722;
+	color: white;
 }
 .fab {
 	font-size: 2rem;
