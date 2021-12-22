@@ -1,0 +1,64 @@
+<header class="site-header">
+	{%- assign default_paths = site.pages | map: "path" -%}
+	{%- assign page_paths = site.header_pages | default: default_paths -%}
+	{%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+
+	{%- if titles_size > 0 -%}
+
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #861F41;">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">MQM2022</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+				aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							About
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<li><a class="dropdown-item" href="#">About MQM</a></li>
+							<li><a class="dropdown-item" href="#">Hornored Work</a></li>
+							<li><a class="dropdown-item" href="#">Organize Committee</a></li>
+						</ul>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							Registration
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<li><a class="dropdown-item" href="#">Registration Link</a></li>
+							<li><a class="dropdown-item" href="#">Refund and Cancelation</a></li>
+
+						</ul>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							Plan Your Trip
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<li><a class="dropdown-item" href="#">Location and Direction</a></li>
+							<li><a class="dropdown-item" href="#">Schedule</a></li>
+							<li><a class="dropdown-item" href="#">Loging</a></li>
+							<li><a class="dropdown-item" href="#">Venue</a></li>
+
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Sponsorship</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Covid-19</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	{%- endif -%}
+</header>
