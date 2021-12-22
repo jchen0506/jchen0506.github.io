@@ -113,23 +113,14 @@ details {
 	background-color: #E87722;
 	color: white;
 }
-.fab {
-	font-size: 2rem;
-	color: #ed1c24ff;
+
+.venue {
+	height: 300px;
+	object-fit: cover;
 }
 
-/* Go from zero to full opacity */
-@keyframes fadeEffect {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
-}
-
-.tabcontent h2 a {
-	color: black;
+.venue-name {
+	text-align: center;
 }
 
 #eventMap {
@@ -146,5 +137,5 @@ details {
 
 footer {
 	z-index: 2;
-	background-color: #fdfdfd;
+	background-color: #FFFFFF;
 }
