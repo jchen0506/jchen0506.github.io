@@ -6,7 +6,7 @@ layout: default
 <div id="particles-js"></div>
 
 <div id="logo-container">
-  <img src="assets/images/pasted-image (1).jpg" id="vt" alt="MolSSI Logo" width="400">
+  <img src="assets/images/pasted-image (1).jpg" id="vt" alt="vt building">
 </div>
 
 
