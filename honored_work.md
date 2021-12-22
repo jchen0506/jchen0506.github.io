@@ -14,6 +14,15 @@ MQM 2022 follows a long and distinguished tradition of conferences dedicated to 
 			<img src="assets/images/pasted-image-2.jpg" class="hornored_prof">
 		</div>
 	</div>
+	<div class="row row-heading">
+		<div class="col prof_name">
+			<em>Prof. Martin Head-Gordon<br>
+			University of California, Berkeley</em>
+		</div>
+		<div class="col prof_name">
+			<em>Prof. Gustavo Scuseria <br> Rice University</em>
+		</div>
+	</div>	
 	<div class="row">
 		<div class="col">
 			<ul>

@@ -3,13 +3,19 @@
 
 @import 'minima';
 
+@font-face {
+	font-family: Crimson; src: url('assets/crimson/Crimson-Roman.otf');
+}
+@font-face {
+	font-family: Acherus_Grotesque; src: url('assets/acherus-grotesque-cufonfonts/acherus_grotesque_-_regular.otf');
+}
 body {
 	box-sizing: border-box;
 	overflow-x: hidden;
-	font-family: 'Crimson Text', serif;
+	font-family: Crimson;
 }
 h1, h2, h3 {
-	font-family: 'Acherus Grotesque';
+	font-family: Acherus_Grotesque;
 	text-decoration: none;
 }
 
@@ -82,8 +88,13 @@ details {
 
 .hornored_prof {
 	height: 300px;
+
 }
 
+.prof_name {
+	font-weight: 200;
+
+}
 .fab {
 	font-size: 2rem;
 	color: #ed1c24ff;
