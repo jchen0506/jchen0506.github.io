@@ -20,7 +20,8 @@ phone: 540-231-5182
 description: Molecular Quantum Mechanics Conference 2022
 repository: 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "education.molssi.org" # the base hostname & protocol for your site, e.g. http://example.com
+domain: jchen0506.github.io
+url: http://jchen0506.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  
 

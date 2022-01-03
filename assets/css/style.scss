@@ -4,24 +4,29 @@
 @import 'minima';
 
 @font-face {
-	font-family: Crimson; src: url('assets/crimson/Crimson-Roman.otf');
+	font-family: Crimson;
+	src: url('../crimson/Crimson-Roman.otf');
 }
 @font-face {
-	font-family: Acherus_Grotesque; src: url('assets/acherus-grotesque-cufonfonts/acherus_grotesque_-_regular.otf');
+	font-family: acherus-grotesque;
+	src: url('../acherus-grotesque-cufonfonts/acherus_grotesque_-_regular.otf')
 }
 body {
 	box-sizing: border-box;
 	overflow-x: hidden;
-	font-family: Crimson;
+	font-family: Crimson, sans-serif;
+	font-size: 1.1rem;
 }
-h1, h2, h3 {
-	font-family: Acherus_Grotesque;
+h1, h2, h3, h4, h5 {
+	font-family: acherus-grotesque;
 	text-decoration: none;
+	font-weight: bold;
 }
 
-#title {
+.title {
 	text-align: center;
 	color: #861F41;
+	margin-bottom: 20px;
 }
 
 details {
@@ -88,6 +93,8 @@ details {
 
 .hornored_prof {
 	height: 300px;
+	width: 250px;
+	object-fit: cover;
 
 }
 
@@ -95,23 +102,25 @@ details {
 	font-weight: 200;
 
 }
-.fab {
-	font-size: 2rem;
-	color: #ed1c24ff;
+
+.committee {
+	height: 300px;
+	width: 250px;
+	object-fit: cover;
 }
 
-/* Go from zero to full opacity */
-@keyframes fadeEffect {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
+.card-header {
+	background-color: #E87722;
+	color: white;
 }
 
-.tabcontent h2 a {
-	color: black;
+.venue {
+	height: 300px;
+	object-fit: cover;
+}
+
+.venue-name {
+	text-align: center;
 }
 
 #eventMap {
@@ -128,5 +137,9 @@ details {
 
 footer {
 	z-index: 2;
-	background-color: #fdfdfd;
+	background-color: #FFFFFF;
+}
+
+a {
+	color:#861F41
 }

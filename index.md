@@ -9,8 +9,7 @@ layout: default
   <img src="assets/images/pasted-image (1).jpg" id="vt" alt="vt building">
 </div>
 
-
-<h1 id="title"> Molecular Quantum Mechanics Conference </h1>
+<h1 class="title"> Molecular Quantum Mechanics Conference 2022</h1>
 
 MQM is the premiere international conference in the field of quantum chemistry, which includes several hundred thousand scientists.  Held triennially with 250-350 participants from around the world, each meeting is held in honor and/or memory of the scientific achievements of leading scientists in the field.  The 2022 meeting will honor Profs. Gustavo Scuseria (Rice University) and Martin Head-Gordon (University of California, Berkeley) and will feature nearly 70 historical, plenary, and invited speakers.
 
